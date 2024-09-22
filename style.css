@@ -1,0 +1,72 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #584578;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #8675a9;
+}
+
+/* Section Styling */
+section {
+    padding: 4rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#home {
+    background-color: #8675a9;
+    color: white;
+}
+
+#about, #experience, #projects, #contact {
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 1rem;
+    color: #584578;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
